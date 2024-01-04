@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minigame</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="game-container">
+        <div id="game-context">
+            <div id="controller-icon"></div>
+            <div id="context-text">
+                <span id="alphabet-text">ALPHABET</span>
+                <span id="order-text">Type the letters in order</span>
+            </div>
+        </div>
+
+        <!-- Add the inner rectangle here -->
+        <div id="inner-rectangle"></div>
+
+        <div id="start-button-container">
+            <button id="start-button" onclick="startGame()">Start Game</button>
+        </div>
+
+        <div id="row1" class="row"></div>
+        <div id="row2" class="row"></div>
+        <div id="row3" class="row"></div>
+        <div id="outcome-container">
+            <div id="outcome"></div>
+        </div>
+        
+        <div id="timer-bar">
+            <div id="timer-fill"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
