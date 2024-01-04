@@ -184,5 +184,9 @@ body {
     border-color: #043737;
 }
 
-/* ... (previous styles) ... */
-
+#created-by {
+    margin-top: 20px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+}
